@@ -1,17 +1,31 @@
 env:
-  # Set this with firebase apphosting:secrets:set
-  - variable: GEMINI_API_KEY
-    secret: gemini-api-key
-  # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCdyclW_NNPxC5_BYdPl0-8ba5dSA6Jr2M
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
     value: nextjs-restuarant-app.firebaseapp.com
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
     value: nextjs-restuarant-app
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
     value: nextjs-restuarant-app.appspot.com
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
     value: 249809618205
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
     value: 1:249809618205:web:f1e66765003078869c8df4
+    availability:
+      - BUILD
+      - RUNTIME
