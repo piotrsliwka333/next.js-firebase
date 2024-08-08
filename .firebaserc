@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "nextjs-restaurant-app": "nextjs-restuarant-app"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
